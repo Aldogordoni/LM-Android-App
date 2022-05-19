@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Extra functions!"
+            android:checkable="false"
+            android:enabled="false">
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Contact Boo :3">
+
+            <menu>
+                <item
+                    android:id="@+id/snapchat_logo"
+                    android:icon="@drawable/snapchat_logo"
+                    android:title="Snapchat"
+                    android:iconTintMode="@null"/>
+                <item
+                    android:id="@+id/instagram_app"
+                    android:icon="@drawable/instagram_logo"
+                    android:title="Instagram" />
+                <item
+                    android:id="@+id/whatsapp_app"
+                    android:icon="@drawable/whatsapp_icon"
+                    android:title="Whatsapp" />
+                <item
+                    android:id="@+id/call_boo"
+                    android:icon="@drawable/ic_baseline_local_phone_24"
+                    android:title="Phone call" />
+                <item
+                    android:id="@+id/send_boo_text"
+                    android:icon="@drawable/ic_launcher"
+                    android:title="send message anywhere!" />
+            </menu>
+
+        </item>
+    </group>
+
+    <item android:title="Boo's stuff">
+        <menu>
+            <item
+                android:id="@+id/adventure_book"
+                android:icon="@drawable/book_and_quill"
+                android:title="Adventure's book" />
+            <item
+                android:id="@+id/boo_reflections"
+                android:icon="@drawable/ic_baseline_border_color_24"
+                android:title="Boo's reflections" />
+        </menu>
+    </item>
+
+    <item android:title="Cutie potutie moment">
+        <menu>
+            <item
+                android:id="@+id/cat_gifs"
+                android:icon="@drawable/icon_cat"
+                android:title="Cat gifs" />
+        </menu>
+    </item>
+</menu>
